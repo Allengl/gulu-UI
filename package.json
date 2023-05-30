@@ -8,7 +8,7 @@
   "module": "dist/library/gulu-ui.esm.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build --base=/gulu-ui-websit/"
   },
   "resolutions": {
     "node-sass": "npm:sass@1.26.11"

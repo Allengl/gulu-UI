@@ -3,7 +3,7 @@ yarn build &&
 cd dist &&
 git init &&
 git add . &&
-git commit -m "update" &&
+git commit -m "deploy" &&
 git branch -M main &&
 git remote add origin git@github.com:Allengl/gulu-ui-website.git &&
 git push -f -u origin main &&
